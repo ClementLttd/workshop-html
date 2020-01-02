@@ -7,20 +7,20 @@
     <title>contact</title>
 </head>
 <body>  
-    <nav>
+    <main>
         <form action="https://clementlttd.github.io/workshop-html/send_contact" method="POST" >
 
             <label for="nom_personne">Nom</label><br>
-            <input type="text" name="lastname" id="nom"><br>
+            <input type="text" name="lastname" id="nom_personne"><br>
 
             <label for="prenom_personne" >Prénom</label><br>
-            <input type="text" name="firstname" id="prenom"><br>
+            <input type="text" name="firstname" id="prenom_personne"><br>
 
             <label for="email">Email</label><br>
             <input type="email" name="email" id="email"><br>
 
             <label for="numero">Numéro de téléphone</label><br>
-            <input type="text" name="tel" id="num"><br>
+            <input type="tel" name="tel" id="numero"><br>
 
             <label for="contact">Canal de contact préféré</label><br>
                 <select id="contact" name="channel">
@@ -29,11 +29,11 @@
                 </select><br>
 
             <label for="message">Message</label><br>
-            <input type="textarea" name="message" id="mess"><br>
+            <textarea name="message" id="message"></textarea>
 
             <button type="submit">Valider</button>
         </form>
-    </nav>
+    </main>
 
 </body>
 </html>
